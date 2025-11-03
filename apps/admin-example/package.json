@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "setup-deps": "pnpm i",
-    "sync-api": "pnpm remove @buf/ahmeddarwish_devkit-api.bufbuild_es &&  rm -rf node_modules/@buf/ahmeddarwish_devkit-api.bufbuild_es ../../node_modules/.pnpm/@buf+ahmeddarwish_devkit-api* && pnpm add @buf/ahmeddarwish_devkit-api.bufbuild_es@latest",
+    "sync-api": "pnpm remove @buf/mawhub_tal.bufbuild_es &&  rm -rf node_modules/@buf/mawhub_tal.bufbuild_es ../../node_modules/.pnpm/@buf+mawhub_tal* && pnpm add @buf/mawhub_tal.bufbuild_es@latest",
     "dev": "vite --host --port 5174",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@buf/ahmeddarwish_devkit-api.bufbuild_es": "2.6.1-20250726004624-e0ce841c5570.1",
+    "@buf/mawhub_tal.bufbuild_es": "^2.10.0-20251028230547-f3359b82114e.1",
     "@connectrpc/connect": "^2.0.2",
     "@connectrpc/connect-web": "^2.0.2",
     "@devkitvue/admin": "workspace:*",
